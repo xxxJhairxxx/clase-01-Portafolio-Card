@@ -1,0 +1,106 @@
+*,html{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.detalle{
+    text-align: start;
+}
+.contenedor {
+margin: 20px auto ;
+padding: 20px;
+width: 100%;
+max-width: 550px;
+max-height: 800px;
+}
+
+header{
+    border-radius: 15px 15px 0 0 ;
+    background: rgb(53,85,162);
+    background: linear-gradient(90deg, rgba(53,85,162,1) 32%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    margin: 0;
+}
+
+.titulo,h5,h3 {
+ text-align: center;
+
+}
+
+.titulo{
+    padding: 20px;
+}
+
+.imagen {
+    display: block;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin:10px auto;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #fc0606;
+}
+.user-image{   
+    margin-left: -48px;
+    display: block;
+     width: 300px;
+     height: 200px;
+}
+
+
+.nav-list{
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-weight:bold;
+}
+.nav-list ul li{
+padding: 5px 20px;}
+
+.nav-list ul li:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.active{
+    border-bottom: 3px #fff solid;
+    
+}
+
+
+.content{
+    padding: 25px 0;
+    background-color: rgb(206, 206, 206);
+    border-radius: 0 0 15px 15px ;
+}
+.logo{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+}
+.logo img{
+    width: 50px;
+}
+.menu-card{
+    display: flex;
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-right: 6px rgb(3, 223, 32) solid;
+    -webkit-box-shadow: 9px 9px 7px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 9px 9px 7px 0px rgba(0,0,0,0.24);
+    box-shadow: 9px 9px 7px 0px rgba(0,0,0,0.24);
+}
+.menu-card p,.menu-card h4 {
+    color: black;
+}

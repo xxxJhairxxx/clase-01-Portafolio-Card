@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<main class="contenedor">
+    <header>
+        
+        <h1 class="titulo">PORTAFOLIO</h1>
+
+    <picture class="imagen">
+        <img class="user-image" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" alt="">
+    </picture>
+        
+    <div class="detalle">
+
+        <h3>Jhair Infanzon Quispe</h3>
+        <h5>Developer</h5>
+
+        <nav class="nav-list">
+            <ul>
+            <li class="active">JAVA</li>
+            <li>VISUAL BASIC</li>
+            <li>JAVASCRIPT</li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+
+<div class="content">
+    <div class="menu-card">
+            <picture class="logo">   
+                <img src="img/html.svg">
+            </picture>
+            <div class="contenido">
+                <H4>HTML 5</H4>
+                <P>Experiencia maquetación Website modernas <br> HTML 5</P>
+            </div>
+    </div>
+    <div class="menu-card">
+        <picture class="logo">   
+            <img src="img/css.svg">
+        </picture>
+        <div class="contenido">
+            <H4>CSS 3</H4>
+            <P>Experiencia maquetación Website modernas <br> HTML 5</P>
+        </div>
+</div>
+<div class="menu-card">
+    <picture class="logo">   
+        <img src="img/js.svg">
+    </picture>
+    <div class="contenido">
+        <H4>JAVASCRIPT</H4>
+        <P>Experiencia maquetación Website modernas <br> HTML 5</P>
+    </div>
+</div>
+</div>
+    
+
+
+
+</main>
+    
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+<script>
+        $(document).ready(function(){
+            
+        })
+
+        $( ".nav-list ul li" ).click(function() {
+            $(".nav-list ul li" ).removeAttr("class");
+            $(this).addClass("active");
+        });
+
+            
+</script>
